@@ -15,9 +15,11 @@ A real-time sentiment analysis dashboard built with **React**, **TypeScript**, a
 
 ---
 
-## Preview
+## Preview & Demo
 
 <img width="1470" alt="Screenshot 2025-07-02 at 8 53 23 PM" src="https://github.com/user-attachments/assets/c9a6d178-f3ef-4719-9a27-b7010fb7a1f1" />
+
+- Link: https://socialsentiment.netlify.app/
 
 ---
 
