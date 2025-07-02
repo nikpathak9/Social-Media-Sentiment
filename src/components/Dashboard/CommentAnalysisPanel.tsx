@@ -6,7 +6,6 @@ import React, {
   useCallback,
 } from "react";
 import { useDashboard } from "../../context/DashboardContext";
-import type { Comment } from "../../types";
 import HistoryModal from "../Modals/HistoryModal";
 import FilterModal from "../Modals/FilterModal";
 import { ListFilter } from "lucide-react";

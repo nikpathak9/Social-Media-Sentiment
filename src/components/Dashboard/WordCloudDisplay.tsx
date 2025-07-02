@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useDashboard } from "../../context/DashboardContext";
-import type { Comment } from "../../types";
 
 const WordCloudDisplay: React.FC = () => {
   const { filteredComments: comments, theme, palette } = useDashboard();
   const [prevTopics, setPrevTopics] = useState<{ [word: string]: number }>({});
   const [animatingWords, setAnimatingWords] = useState<Set<string>>(new Set());
-  const [isLiveMode, setIsLiveMode] = useState(true);
+  const [isLiveMode] = useState(true);
   const [liveUpdateCount, setLiveUpdateCount] = useState(0);
   const [newTopics, setNewTopics] = useState<Set<string>>(new Set());
 

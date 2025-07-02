@@ -3,7 +3,7 @@ import { useDashboard } from "../../context/DashboardContext";
 import { MoonStar, SunMedium } from "lucide-react";
 
 const ThemeToggle: React.FC = () => {
-  const { theme, setTheme, palette } = useDashboard();
+  const { theme, setTheme } = useDashboard();
   const [animating, setAnimating] = useState(false);
 
   const handleToggle = () => {
